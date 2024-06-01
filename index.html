@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+<button style="background-color: rgb(66, 66, 225);padding: 10px;color: white;border-radius: 5px;border: none;margin-left: 100px;" onclick="myFunction()">Göster/gizlet</button>
+
+<p id="myDIV">
+bu paragrafi goster/gizlet ile kontrol ede bilersiniz
+</p>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myDIV");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>
